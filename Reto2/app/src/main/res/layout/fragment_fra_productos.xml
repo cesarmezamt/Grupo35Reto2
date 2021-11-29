@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FraProductos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF5722"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Colecciones:"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/comfortaa_bold"
+                android:inputType="textPersonName"
+                android:text="Chaquetas en Denin"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/ima_fpro1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                tools:src="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/naranja"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Comprar"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/ima_hpro1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                tools:src="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/verde"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Comprar" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/comfortaa_bold"
+                android:inputType="textPersonName"
+                android:text="Chaquetas Impermeables"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/ima_fpro2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                tools:src="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/naranja"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Comprar" />
+
+            <ImageView
+                android:id="@+id/ima_hpro2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                tools:src="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/verde"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Comprar" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/comfortaa_bold"
+                android:inputType="textPersonName"
+                android:text="Chaquetas en Cuero"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/ima_fpro3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                tools:src="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/naranja"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Comprar" />
+
+            <ImageView
+                android:id="@+id/ima_hpro3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                tools:src="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/verde"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Comprar" />
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/listDivider" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
